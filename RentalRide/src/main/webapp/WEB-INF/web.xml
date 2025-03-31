@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <servlet>
+    <description></description>
+    <display-name>UserRegistrationServlet</display-name>
+    <servlet-name>UserRegistrationServlet</servlet-name>
+    <servlet-class>User.UserRegistrationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserRegistrationServlet</servlet-name>
+    <url-pattern>/UserRegistrationServlet</url-pattern>
+  </servlet-mapping>
+  <display-name>RentalRide</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>UserLoginServlet</display-name>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <servlet-class>User.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <url-pattern>/UserLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserUpdateServlet</display-name>
+    <servlet-name>UserUpdateServlet</servlet-name>
+    <servlet-class>User.UserUpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserUpdateServlet</servlet-name>
+    <url-pattern>/UserUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserDeleteServlet</display-name>
+    <servlet-name>UserDeleteServlet</servlet-name>
+    <servlet-class>User.UserDeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserDeleteServlet</servlet-name>
+    <url-pattern>/UserDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CustomerVehicleListServlet</display-name>
+    <servlet-name>CustomerVehicleListServlet</servlet-name>
+    <servlet-class>VehicleOwner.CustomerVehicleListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerVehicleListServlet</servlet-name>
+    <url-pattern>/CustomerVehicleListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteVehicleServlet</display-name>
+    <servlet-name>DeleteVehicleServlet</servlet-name>
+    <servlet-class>VehicleOwner.DeleteVehicleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteVehicleServlet</servlet-name>
+    <url-pattern>/DeleteVehicleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateVehicleServlet</display-name>
+    <servlet-name>UpdateVehicleServlet</servlet-name>
+    <servlet-class>VehicleOwner.UpdateVehicleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateVehicleServlet</servlet-name>
+    <url-pattern>/UpdateVehicleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>VehicleListServlet</display-name>
+    <servlet-name>VehicleListServlet</servlet-name>
+    <servlet-class>VehicleOwner.VehicleListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VehicleListServlet</servlet-name>
+    <url-pattern>/VehicleListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>VehicleUploadServlet</display-name>
+    <servlet-name>VehicleUploadServlet</servlet-name>
+    <servlet-class>VehicleOwner.VehicleUploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VehicleUploadServlet</servlet-name>
+    <url-pattern>/VehicleUploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>BookVehicleServlet</display-name>
+    <servlet-name>BookVehicleServlet</servlet-name>
+    <servlet-class>com.xadmin.Customerbookings.web.BookVehicleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookVehicleServlet</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+    <description></description>
+    <display-name>deleteinqservlet</display-name>
+    <servlet-name>deleteinqservlet</servlet-name>
+    <servlet-class>cusinq.deleteinqservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteinqservlet</servlet-name>
+    <url-pattern>/deleteinqservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>inqinsert</display-name>
+    <servlet-name>inqinsert</servlet-name>
+    <servlet-class>cusinq.inqinsert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>inqinsert</servlet-name>
+    <url-pattern>/inqinsert</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>inquiryservlet</display-name>
+    <servlet-name>inquiryservlet</servlet-name>
+    <servlet-class>cusinq.inquiryservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>inquiryservlet</servlet-name>
+    <url-pattern>/inquiryservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description> 
+    <display-name>updateinqServlet</display-name>
+    <servlet-name>updateinqServlet</servlet-name>
+    <servlet-class>cusinq.updateinqServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateinqServlet</servlet-name>
+    <url-pattern>/updateinqServlet</url-pattern>
+  </servlet-mapping>
+ <servlet>
+    <servlet-name>VehicleServlet1</servlet-name>
+    <servlet-class>com.xadmin.vehiclelist.web.VehicleServlet1</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>VehicleServlet1</servlet-name>
+    <url-pattern>/vehicle</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>VehicleServlet2</servlet-name>
+    <servlet-class>com.xadmin.CVehicleManagement.web.VehicleServlet2</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>VehicleServlet2</servlet-name>
+    <url-pattern>/VehicleServlet2</url-pattern>
+</servlet-mapping>
+
+
+
+</web-app>
